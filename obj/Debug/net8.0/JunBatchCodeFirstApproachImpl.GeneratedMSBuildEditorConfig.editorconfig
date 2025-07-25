@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = JunBatchCodeFirstApproachImpl
+build_property.RootNamespace = JunBatchCodeFirstApproachImpl
+build_property.ProjectDir = C:\Users\finan\source\repos\JunBatchCodeFirstApproachImpl\JunBatchCodeFirstApproachImpl\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\finan\source\repos\JunBatchCodeFirstApproachImpl\JunBatchCodeFirstApproachImpl
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/finan/source/repos/JunBatchCodeFirstApproachImpl/JunBatchCodeFirstApproachImpl/Views/Ajax/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWpheFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/finan/source/repos/JunBatchCodeFirstApproachImpl/JunBatchCodeFirstApproachImpl/Views/EmployeeHandler/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVIYW5kbGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/finan/source/repos/JunBatchCodeFirstApproachImpl/JunBatchCodeFirstApproachImpl/Views/Emp/AddEmp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wXEFkZEVtcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/finan/source/repos/JunBatchCodeFirstApproachImpl/JunBatchCodeFirstApproachImpl/Views/Emp/EditEmp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wXEVkaXRFbXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/finan/source/repos/JunBatchCodeFirstApproachImpl/JunBatchCodeFirstApproachImpl/Views/Emp/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/finan/source/repos/JunBatchCodeFirstApproachImpl/JunBatchCodeFirstApproachImpl/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/finan/source/repos/JunBatchCodeFirstApproachImpl/JunBatchCodeFirstApproachImpl/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/finan/source/repos/JunBatchCodeFirstApproachImpl/JunBatchCodeFirstApproachImpl/Views/Manager/AddDept.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxBZGREZXB0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/finan/source/repos/JunBatchCodeFirstApproachImpl/JunBatchCodeFirstApproachImpl/Views/Manager/AddManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxBZGRNYW5hZ2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/finan/source/repos/JunBatchCodeFirstApproachImpl/JunBatchCodeFirstApproachImpl/Views/Manager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/finan/source/repos/JunBatchCodeFirstApproachImpl/JunBatchCodeFirstApproachImpl/Views/Repo/AddEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb1xBZGRFbXBsb3llZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/finan/source/repos/JunBatchCodeFirstApproachImpl/JunBatchCodeFirstApproachImpl/Views/Repo/EditEmp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb1xFZGl0RW1wLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/finan/source/repos/JunBatchCodeFirstApproachImpl/JunBatchCodeFirstApproachImpl/Views/Repo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/finan/source/repos/JunBatchCodeFirstApproachImpl/JunBatchCodeFirstApproachImpl/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/finan/source/repos/JunBatchCodeFirstApproachImpl/JunBatchCodeFirstApproachImpl/Views/Shared/Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5vdGlmaWNhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/finan/source/repos/JunBatchCodeFirstApproachImpl/JunBatchCodeFirstApproachImpl/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/finan/source/repos/JunBatchCodeFirstApproachImpl/JunBatchCodeFirstApproachImpl/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/finan/source/repos/JunBatchCodeFirstApproachImpl/JunBatchCodeFirstApproachImpl/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/finan/source/repos/JunBatchCodeFirstApproachImpl/JunBatchCodeFirstApproachImpl/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-1yb8g61hef

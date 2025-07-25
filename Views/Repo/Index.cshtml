@@ -1,0 +1,72 @@
+﻿@model List<Student>
+
+<a class="btn btn-info" asp-action="AddEmployee">Add Student</a>
+
+@* <form method="post"> *@
+@*     <input type="text" name="str"> *@
+@*     <input type="submit" value="Search"> *@
+@* </form> *@
+
+<table class="table" id="stdid">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Photo</th>
+            <th scope="col">Name</th>
+            <th scope="col">Course</th>
+            <th scope="col">Fees</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var d in Model)
+        {
+            <tr>
+                <th scope="row">@d.Sid</th>
+                <td><img src="@d.Sphoto" height="50" width="50"/></td>
+                <td>@d.Sname</td>
+                <td>@d.Scourse</td>
+                <td>@d.Fees</td>
+                <td>
+                    <a class="btn btn-sm btn-danger" asp-action="DelEmp" asp-route-id="@d.Sid" onclick="return confirm('Are You Sure?')">Delete</a>
+
+                    <a class="btn btn-sm btn-success" asp-action="EditEmp" asp-route-id="@d.Sid">Edit</a>
+                </td>
+            </tr>
+        }
+
+
+    </tbody>
+</table>
+
+@* @section Scripts{
+    <link href="https://cdn.datatables.net/v/dt/jszip-3.10.1/dt-2.3.2/af-2.7.0/b-3.2.4/b-html5-3.2.4/b-print-3.2.4/datatables.min.css" rel="stylesheet" integrity="sha384-IySCXWiNJeVgwNaLWeB4vZ5WrNJSjQ1U/gxomEKGEWV+I+uGou2YL/tAr/WMzTGK" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js" integrity="sha384-VFQrHzqBh5qiJIU0uGU5CIW3+OWpdGGJM9LBnGbuIH2mkICcFZ7lPd/AAtI7SNf7" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js" integrity="sha384-/RlQG9uf0M2vcTw3CX7fbqgbj/h8wKxw7C3zu9/GxcBPRKOEcESxaxufwRXqzq6n" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/v/dt/jszip-3.10.1/dt-2.3.2/af-2.7.0/b-3.2.4/b-html5-3.2.4/b-print-3.2.4/datatables.min.js" integrity="sha384-Mtp0RqcZzjFgM5x25xvq/ZPSadiAKX8J7k9tz7bFlhgtQ/doomcHsO5WLW3HEnak" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function(){
+             $('#stdid').DataTable({
+            dom: 'Bftip',
+            buttons: [
+                'copy', 'excel', 'pdf','print'
+            ]
+        });
+        });
+    </script>
+} *@
+
+@section Scripts{
+    <script src="https://cdn.datatables.net/2.3.2/js/dataTables.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.2/css/dataTables.dataTables.css" />
+
+    <script>
+        $(document).ready(function(){
+            new DataTable('#stdid');
+        })
+    </script>
+}

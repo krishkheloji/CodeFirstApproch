@@ -1,0 +1,13 @@
+﻿@model StudentModel
+
+<form method="post" enctype="multipart/form-data">
+    Name <input type="text" class="form-control" asp-for="Sname" /><br />
+
+    Course <input type="text" class="form-control" asp-for="Scourse" /><br />
+
+    Fees <input type="text" class="form-control" asp-for="Fees" /><br />
+
+    Photo <input type="file" class="form-control" asp-for="Sphoto" /><br />
+
+    <input type="submit" value="Save" class="btn btn-primary">
+</form>

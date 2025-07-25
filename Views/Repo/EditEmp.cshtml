@@ -1,0 +1,12 @@
+﻿@model Student
+
+<form method="post">
+    ID <input type="text" class="form-control" readonly asp-for="Sid" /><br />
+    Name <input type="text" class="form-control" asp-for="Sname" /><br />
+
+    Course <input type="text" class="form-control" asp-for="Scourse" /><br />
+
+    Fees <input type="text" class="form-control" asp-for="Fees" /><br />
+
+    <input type="submit" value="Save" class="btn btn-primary">
+</form>
