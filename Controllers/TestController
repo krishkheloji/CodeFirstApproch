@@ -1,0 +1,21 @@
+public class TestController : Controller
+{
+    private readonly ApplicationDbContext _context;
+    public HomeController(ApplicationDbContext context)
+    {
+        _context = context;
+    }
+
+    public IActionResult TestDb()
+    {
+        try
+        {
+            var data = _context.TableName.FirstOrDefault();
+            return Content("Database Connected Successfully");
+        }
+        catch (Exception ex)
+        {
+            return Content("Error: " + ex.Message);
+        }
+    }
+}
