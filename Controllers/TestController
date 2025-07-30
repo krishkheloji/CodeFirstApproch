@@ -1,16 +1,22 @@
-public class TestController : Controller
+﻿using JunBatchCodeFirstApproachImpl.Data;
+using JunBatchCodeFirstApproachImpl.Models;
+using Microsoft.AspNetCore.Mvc;
+
+namespace JunBatchCodeFirstApproachImpl.Controllers
 {
-    private readonly ApplicationDbContext _context;
-    public HomeController(ApplicationDbContext context)
+    public class TestController : Controller
     {
-        _context = context;
-    }
+        ApplicationDbContext db;
+        public TestController(ApplicationDbContext db)
+        {
+            this.db = db;
+        }
 
     public IActionResult TestDb()
     {
         try
         {
-            var data = _context.TableName.FirstOrDefault();
+            var data = db.emps.FirstOrDefault();
             return Content("Database Connected Successfully");
         }
         catch (Exception ex)
